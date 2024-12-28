@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import CardiologySection from './components/CardiologySection';
 import "bootstrap/dist/css/bootstrap.min.css";
 
