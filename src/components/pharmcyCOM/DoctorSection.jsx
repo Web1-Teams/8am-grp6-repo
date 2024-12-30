@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../DoctorSection.css";
+import "./DoctorSection.css";
 
 const DoctorsList = ({ doctors }) => {
   return (

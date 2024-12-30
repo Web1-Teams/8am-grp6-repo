@@ -1,49 +1,11 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './App.css';
-import DoctorsSection from './components/Service/DoctorSection';
-import ServicesList from './components/Service/Service';
+import PageContent from './components/pharmacyCOM/PageContent.jsx';
 
 function App() {
-  const [services, setServices] = useState([
-    "Medication Provision: The pharmacy offers a wide range of medications to meet diverse patient needs.",
-    "Dosage Determination: Pharmacists determine appropriate dosages for each patient based on their individual health condition and characteristics.",
-    "Medication Timing: Pharmacists provide guidance on the best times to take medication to ensure its effectiveness.",
-    "Appropriate Medication Selection: Pharmacists help in choosing the right medication for each condition, considering potential drug interactions.",
-    "Patient-Specific Medications: The pharmacy provides medications tailored to meet the unique needs of each patient.",
-    "Medication Therapy Monitoring: Pharmacists monitor medication use to ensure effectiveness and minimize side effects.",
-    "Collaborative Care: The pharmacy collaborates with medical teams to ensure patients receive the best possible care.",
-    "Quality Procedures: Pharmacy procedures are continuously updated to ensure the quality of services provided.",
-  ]);
-
-  const [loading, setLoading] = useState(true);
-
-  useEffect(() => {
-    setTimeout(() => {
-      setLoading(false);
-    }, 1000);
-  }, []);
-
-  if (loading) {
-    return <div>Loading...</div>;
-  }
-
   return (
     <div className="App">
-      <div className="page-container">
-        <div className="header-image-container">
-          <img
-            src="phr.jpg"
-            alt="Medical Laboratories "
-            className="header-image"
-          />
-        </div>
-        <h2 className="services-title">Our Available Services:</h2>
-        <div className="services-section">
-          <ServicesList services={services} />
-        </div>
-        <h2 className="pbmit-title">Our Doctors</h2>
-        <DoctorsSection />
-      </div>
+      <PageContent />
     </div>
   );
 }
