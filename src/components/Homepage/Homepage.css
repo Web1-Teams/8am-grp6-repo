@@ -1,0 +1,80 @@
+.header {
+  background-color: #a3e2d9;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: white;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  color: white;
+  font-size: 1.4rem;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1, 1);
+}
+
+.logo {
+  max-height: 80px;
+}
+
+.hero-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  background-image: url("../../images/najah-hospital.jpg");
+}
+
+.hero-content {
+  padding: 2rem;
+  background-color: rgba(9, 49, 85, 0.8);
+  height: 600px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.text-content {
+  text-align: left;
+  display: inline-block;
+  align-items: center;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-info-details p {
+  margin: 0;
+}
