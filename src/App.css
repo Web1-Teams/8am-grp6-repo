@@ -1,20 +1,3 @@
-.page-container {
-  font-family: Arial, sans-serif;
-  direction: ltr;
-  padding: 20px;
-  max-width: 900px;
-  margin: auto;
-}
-
-.header-image-container {
-  margin-bottom: 30px;
-}
-
-.header-image {
-  width: 100%;
-  border-radius: 10px;
-  object-fit: cover;
-}
 
 .services-section {
   margin-top: 20px;
