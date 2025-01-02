@@ -30,7 +30,7 @@ function PageContent() {
         <div className="page-container">
           <div className="header-image-container">
             <img
-              src="src/assets/medical laboratory.jpg"
+              src="src\assets\images\medical laboratory.jpg"
               alt="medical laboratory"
               className="header-image"
             />

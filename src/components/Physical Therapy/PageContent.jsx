@@ -11,7 +11,9 @@ function PageContent() {
       "Injury recovery or prevention.",
       "Recovery from stroke or paralysis.",
       "Manage age-related medical issues.",
-    ]);
+  
+    ]
+    );
     
       const [loading, setLoading] = useState(true);
     
@@ -29,8 +31,8 @@ function PageContent() {
         <div className="page-container">
           <div className="header-image-container">
             <img
-              src="src\assets\Physical therapy - Copy.webp"
-              alt="Physical therapy "
+              src="src/assets/images/Physical therapy - Copy.webp"
+              alt="Physical therapy"
               className="header-image"
             />
           </div>

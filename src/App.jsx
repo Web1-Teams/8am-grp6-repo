@@ -1,13 +1,24 @@
-// App.jsx
 import React from 'react';
 import './App.css';
-import PageContent from './components/physical/PageContent.jsx';
+import Homepage from "./components/Physical Therapy/Homepage.jsx";
+import PageContent from './components/Physical Therapy/PageContent.jsx';
+
 
 function App() {
   return (
+    <div>
+
+<div className="App-container">
+      
+      <div className="Homepage">
+        <Homepage />
+       
+      </div>
+     </div>
     <div className="App">
       <PageContent />
     </div>
+  </div>
   );
 }
 
