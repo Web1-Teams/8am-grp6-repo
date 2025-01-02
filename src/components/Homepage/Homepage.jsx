@@ -48,7 +48,7 @@ const Homepage = () => {
           </a>
          </div>
         </header>
-          <header className="header">
+          <header className="header-sub">
   <a href="/" className="logo-1">Our services</a>
   <a href="/">Home +</a>
   <a href="/">Pharmacy +</a>
@@ -80,12 +80,8 @@ const Homepage = () => {
     </ul>
   </div>
 </header>
- 
-    <section className="hero-section">
-        <div className="hero-content">
-          <div className="text-content">
-          </div>
-        </div>
+<section className="image-h">
+         
       </section><div className="content-sub"><h2>About An-Najah Hospital</h2>
         <p>
           Our website is an innovative platform designed to enhance the healthcare experience by providing

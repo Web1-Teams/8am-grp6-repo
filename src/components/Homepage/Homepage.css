@@ -109,6 +109,7 @@ color:#fff
 
 .dropdown {
   position: relative;
+  z-index: 10;
 }
 
 .dropdown-menu {
@@ -124,7 +125,8 @@ color:#fff
   z-index: 1000;
   box-shadow:0 4px 6px rgba(0, 0, 0, 0.1); 
   min-width: 400px;
-  
+  z-index: 15;
+  opacity: 88%;
 }
 
 .dropdown-menu li {
@@ -143,13 +145,40 @@ color:#fff
 .addition{
 
 color: #093155;
-/*background-color: #ccc;*/
+
+
+
+
+}
+.header-sub{
+
+  background-color:#093155;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+opacity: 88%;
+
+
 
 
 
 }
 
+.image-h{
 
+  background-size: cover;
+ background-position: center;
+ min-height: 600px;
+  display: flex;
+  background-image: url("../../images/najah-hospital.jpg");
+  z-index: 1;
+
+
+
+
+}
 
 
 
