@@ -1,0 +1,166 @@
+.header{
+  background-color:#a3dfd9;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-weight: 500;
+ 
+
+}
+.header-sub{
+  background-color:#a3dfd9;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  opacity:85%;
+  font-weight: bold;
+
+}
+
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color:black;
+}
+
+.social-media {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  color:black;
+  font-size: 1.4rem;
+  transition: transform 0.2s ease;
+}
+
+.social-icon:hover {
+  transform: scale(1, 1);
+}
+
+.logo {
+  max-height: 80px;
+}
+
+.hero-section {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height: 600px;
+  display: flex;
+  justify-content: flex-start;
+  color: white;
+  background-image: url("../../images/najah-hospital.jpg");
+}
+
+.hero-content {
+  padding: 2rem;
+  height: 600px;
+  max-width: 500px;
+  text-align: center;
+}
+
+.text-content {
+  text-align: left;
+  display: inline-block;
+  align-items: center;
+}
+
+.hero-content h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero-content p {
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
+
+.contact-info-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.contact-info-details p {
+  margin: 0;
+}
+.content-sub{
+  text-align: center;
+  
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height:200px;
+
+}
+
+.logo-1{
+font-size: 32px;
+color:black ;
+font-weight: 700;
+
+
+}
+a{
+
+color:black
+
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  left: auto;
+  background-color:#ffffff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  list-style:none;
+  z-index: 1000;
+  box-shadow:0 4px 6px rgba(0, 0, 0, 0.1); 
+  min-width: 400px;
+  
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  
+  color:black
+  
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+
+}
+.addition{
+
+color: #093155;
+
+}
+a {
+  color: black; 
+  text-decoration: none; 
+}
+
+
+
+
+
+

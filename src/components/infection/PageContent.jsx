@@ -31,7 +31,7 @@ function PageContent() {
     <div className="page-container">
       <div className="header-image-container">
         <img
-          src="src/assets/مكافحة العدوى.jpg"
+          src="src/assets/images/مكافحة العدوى.jpg"
           alt="Infection control "
           className="header-image"
         />
