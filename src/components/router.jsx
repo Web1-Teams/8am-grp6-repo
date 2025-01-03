@@ -1,22 +1,19 @@
-
-
-
+// router.jsx
 import { createBrowserRouter } from 'react-router-dom';
-import Main from "../Layouts/Main/Main";
-import Home from "../Pages/Home/Home/Home";
-import DoctorSectionPhar from './pharmcyCOM/DoctorSection';
-import PageContentPhar from './pharmcyCOM/PageContent';
-import ServicePhar from './pharmcyCOM/Service';
+import MainLayout from './Layouts/Main/MainLayout';
+import Home from "./Pages/Home/Home/Home";
+import DoctorSectionPhar from './components/pharmcyCOM/DoctorSection';
+import PageContentPhar from './components/pharmcyCOM/PageContent';
+import ServicePhar from './components/pharmcyCOM/Service';
 
-import DoctorSectionPsy from './psycholgicl/DoctorSection';
-import PageContentPsy from './psycholgicl/PageContent';
-import ServicePsy from './psycholgicl/Service';
-
+import DoctorSectionPsy from './components/psycholgicl/DoctorSection';
+import PageContentPsy from './components/psycholgicl/PageContent';
+import ServicePsy from './components/psycholgicl/Service';
 
 const router = createBrowserRouter([
     {
         path: "/",
-        element: <Main></Main>,
+        element: <MainLayout></MainLayout>,
         children: [
             {
                 path: "/home",
@@ -24,30 +21,30 @@ const router = createBrowserRouter([
             },
             {
                 path: "/pharmacy",
-                element: <PageContentPhar/>,
+                element: <PageContentPhar />,
                 children: [
                     {
                         path: "doctors",
-                        element: <DoctorSectionPhar/>,
-                     
+                        element: <DoctorSectionPhar />,
+
                     },
-                     {
+                    {
                         path: "services",
-                        element: <ServicePhar/>
+                        element: <ServicePhar />
                     }
                 ]
             },
             {
                 path: "/psychological",
-                element: <PageContentPsy/>,
+                element: <PageContentPsy />,
                 children: [
                     {
                         path: "doctors",
-                        element: <DoctorSectionPsy/>
+                        element: <DoctorSectionPsy />
                     },
                     {
-                         path: "services",
-                         element: <ServicePsy/>
+                        path: "services",
+                        element: <ServicePsy />
                     }
                 ]
             }
