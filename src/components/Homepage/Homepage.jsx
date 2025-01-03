@@ -9,7 +9,7 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
 } from "react-icons/fa";
-import hospitalImage from "../../images/najah-hospital.jpg";
+import videoSrc from "./video native.mp4"
 import React, {useState} from "react"
 
 const Homepage = () => {
@@ -80,9 +80,17 @@ const Homepage = () => {
     </ul>
   </div>
 </header>
-<section className="image-h">
-         
-      </section><div className="content-sub"><h2>About An-Najah Hospital</h2>
+<section className="video-1">
+<video autoPlay loop muted>
+
+<source src={videoSrc}
+type="video/mp4" />
+
+
+</video>  
+        
+      </section>
+      <div className="content-sub"><h2>About An-Najah Hospital</h2>
         <p>
           Our website is an innovative platform designed to enhance the healthcare experience by providing
           comprehensive services that make accessing medical information simple and efficient. Through the

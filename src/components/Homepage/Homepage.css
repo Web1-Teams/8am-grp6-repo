@@ -126,7 +126,7 @@ color:#fff
   box-shadow:0 4px 6px rgba(0, 0, 0, 0.1); 
   min-width: 400px;
   z-index: 15;
-  opacity: 88%;
+  opacity: 95%;
 }
 
 .dropdown-menu li {
@@ -166,19 +166,22 @@ opacity: 88%;
 
 }
 
-.image-h{
-
-  background-size: cover;
- background-position: center;
- min-height: 600px;
+.video-1{
+  justify-content: center;
+  height: 550px;
   display: flex;
-  background-image: url("../../images/najah-hospital.jpg");
-  z-index: 1;
-
-
-
-
-}
+  object-fit: cover;
+  width: 100%;
+  margin:auto ;
+  border-radius: 10px;
+  border: 1px solid white;
+  overflow: hidden;
+  padding: 0;
+  
+  
+  
+  }
+  
 
 
 
