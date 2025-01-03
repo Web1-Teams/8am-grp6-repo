@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-color: #e6f2ff; /* Light Blue */
+  background-color: #e6f2ff; 
 }
 .appointment-form-container {
   display: flex;
