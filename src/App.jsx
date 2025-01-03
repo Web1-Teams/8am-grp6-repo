@@ -3,7 +3,6 @@ import './App.css';
 import Homepage from "./components/Physical Therapy/Homepage.jsx";
 import PageContent from './components/Physical Therapy/PageContent.jsx';
 
-
 function App() {
   return (
     <div>
@@ -12,8 +11,7 @@ function App() {
       
       <div className="Homepage">
         <Homepage />
-       
-      </div>
+        </div>
      </div>
     <div className="App">
       <PageContent />
