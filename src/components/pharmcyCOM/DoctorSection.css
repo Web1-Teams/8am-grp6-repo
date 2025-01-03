@@ -1,0 +1,66 @@
+.doctors-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 50px;
+    padding: 40px;
+    background-color:#81c9ca;
+    border-radius: 30px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 1200px;
+    overflow: hidden;
+  }
+  
+  .doctor-card {
+    text-align: center;
+    flex: 1 1 calc(33.33% - 50px);
+    max-width: 350px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background: linear-gradient(145deg, #acc9d6, #aacbdb);
+    border: 1px solid #23bac7;
+    padding: 35px 25px;
+    cursor: pointer; 
+  }
+  
+  .doctor-card:hover {
+    transform: translateY(-15px); 
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25); 
+  }
+  
+  .doctor-image {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 3px solid #27749b;
+  }
+  
+  .doctor-name {
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 12px;
+    font-weight: bold;
+    color: #05445e;
+  }
+  
+  .doctor-details {
+    font-size: 16px;
+    color: #376579;
+    line-height: 24px;
+  }
+  
+  @media (max-width: 768px) {
+    .doctors-container {
+      flex-direction: column;
+      align-items: center;
+      gap: 30px;
+    }
+  
+    .doctor-card {
+      flex: 1 1 auto;
+      width: 90%;
+    }
+  }
