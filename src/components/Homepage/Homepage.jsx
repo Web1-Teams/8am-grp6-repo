@@ -1,6 +1,8 @@
 import "./Homepage.css";
+
 import logo from "./logo.png"
 import logoo from "./logoo.png"
+
 
 import {
   FaFacebookF,
@@ -9,11 +11,13 @@ import {
   FaMapMarkerAlt,
   FaPhoneAlt,
 } from "react-icons/fa";
+
 import videoSrc from "./video native.mp4"
 import React, {useState} from "react"
 
 const Homepage = () => {
   
+
   return (
     <div>
       <header className="header">
@@ -37,6 +41,7 @@ const Homepage = () => {
           </div>
         </div>
         <div className="social-media">
+
           <a href="#" target="_blank" rel="noopenernoreferrer">
             <FaFacebookF className="social-icon" />
           </a>
@@ -111,6 +116,43 @@ type="video/mp4" />
       </div>
 
       </div>
+
+          <button href="#" target="_blank" rel="noopenernoreferrer">
+            <FaFacebookF className="social-icon" />
+          </button>
+          <button href="#" target="_blank" rel="noopenernoreferrer">
+            <FaInstagram className="social-icon" />
+          </button>
+          <button href="#" target="_blank" rel="noopenernoreferrer">
+            <FaYoutube className="social-icon" />
+          </button>
+        </div>
+      </header>
+
+      <section className="hero-section">
+        <div className="hero-content">
+          <div className="text-content">
+            <h2>About An-Najah Hospital</h2>
+            <p>
+              Our website is an innovative platform designed to enhance the
+              healthcare experience by providing comprehensive services that
+              make accessing medical information simple and efficient. Through
+              the website, you can explore a detailed list of available doctors,
+              review their specialties and medical expertise, and select the
+              doctor best suited to your health needs. The platform also offers
+              accurate information about doctors’ schedules and hospital
+              services, with the convenience of booking appointments online. We
+              believe in the importance of user feedback in improving our
+              services. Therefore, the website features a review and rating
+              system, allowing users to share their experiences and help others
+              make informed decisions. Our goal is to be your trusted gateway to
+              a comfortable and outstanding medical experience.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
   );
 };
 

@@ -1,5 +1,7 @@
 .header {
-  background-color: #093155;
+
+  background-color: #a3e2d9;
+
   padding: 20px 40px;
   display: flex;
   justify-content: space-between;
@@ -47,6 +49,9 @@
 
 .hero-content {
   padding: 2rem;
+
+  background-color: rgba(9, 49, 85, 0.8);
+
   height: 600px;
   max-width: 500px;
   text-align: center;
@@ -78,6 +83,7 @@
 .contact-info-details p {
   margin: 0;
 }
+
 .content-sub{
   text-align: center;
   
