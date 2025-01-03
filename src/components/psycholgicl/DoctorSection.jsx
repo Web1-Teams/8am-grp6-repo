@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./DoctorSection.css";
 
+
 const DoctorsList = ({ doctors }) => {
   return (
     <div className="doctors-container">
@@ -16,8 +17,8 @@ const DoctorsList = ({ doctors }) => {
 
 const DoctorsSection = () => {
   const [doctors, setDoctors] = useState([
-    { name: "Dr. Arab Ramdan", image: "draref.png" },
-    { name: "Dr. Asmaa Nayfeh", image: "drasmaa.png" },
+    { name: "Dr. Jawad Ziadeh", image:"src/assets/images/dr ameen.png" },
+    { name: "Dr. Mazen Kazlak", image: "src/assets/images/dr bahha.png" },
   ]);
 
   const [loading, setLoading] = useState(true);

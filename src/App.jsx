@@ -2,7 +2,7 @@
 import React from 'react';
 import './App.css';
 import Homepage from "./components/Homepage";
-import PageContent from './components/pharmcyCOM/PageContent';
+import PageContent from './components/psycholgicl/PageContent';
 
 
 function App() {
