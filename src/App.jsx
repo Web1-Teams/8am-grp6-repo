@@ -1,4 +1,21 @@
 import React from "react";
+
+import Homepage from "./components/Homepage/Homepage";
+import "./App.css";
+
+
+function App() {
+  return (
+    
+    <div className="App-container">
+      
+        <div className="Homepage">
+          <Homepage />
+         
+        </div>
+
+        </div>
+
 import Homepage from "../src/compontents/Homepage/Homepage";
 import Feedback from "../src/compontents/Feedback/Feedback";
 import Footer from "../src/compontents/Footer/Footer";
@@ -17,6 +34,7 @@ function App() {
         <Footer />
       </div>
     </div>
+
   );
 }
 
