@@ -5,14 +5,13 @@ import ServicesList from './Service';
 
 function PageContent() {
     const [services, setServices] = useState([
-      "Pain management.",
-      "Avoiding surgery.",
-      "Improved mobility and movement.",
-      "Injury recovery or prevention.",
-      "Recovery from stroke or paralysis.",
-      "Manage age-related medical issues.",
-  
-    ]
+      "Diagnostic Tests: Includes blood tests to detect chronic diseases such as diabetes and heart disease,  as well as infection tests for viruses and bacteria.",
+      "Diagnostic Services for Surgical Samples: Offering diagnostic services for surgical samples from hospital patients, along with  providing consultative services to external patients and doctors.",
+      "Treatment Monitoring and Patient Condition Follow-up: Monitoring treatment and following up on the progression of patient conditions, with the ability to adjust treatment based on results.",
+      "Screening for Genetic or Chronic Diseases: Providing early screening for genetic or chronic diseases.",
+      "Stem Cell Collection and Storage: Collecting and preserving stem cells until bone marrow transplantation.",
+      "Virus Testing: Testing for viruses such as HIV (Human Immunodeficiency Virus) and Hepatitis C and B.",
+    ]
     );
     
       const [loading, setLoading] = useState(true);
@@ -31,8 +30,8 @@ function PageContent() {
         <div className="page-container">
           <div className="header-image-container">
             <img
-              src="src/assets/images/Physical therapy - Copy.webp"
-              alt="Physical therapy"
+              src="src/assets/images/medical laboratory.jpg"
+              alt="medical laboratory"
               className="header-image"
             />
           </div>

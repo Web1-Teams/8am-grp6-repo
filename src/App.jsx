@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
-import Homepage from "./components/Physical Therapy/Homepage.jsx";
-import PageContent from './components/Physical Therapy/PageContent.jsx';
+import Homepage from "./components/medical service/Homepage.jsx";
+import PageContent from './components/medical service/PageContent.jsx';
 
 function App() {
   return (

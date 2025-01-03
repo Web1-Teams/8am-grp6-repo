@@ -17,8 +17,8 @@ const DoctorsList = ({ doctors }) => {
 
 const DoctorsSection = () => {
   const [doctors, setDoctors] = useState([
-    { name: "Dr. Abdulkareem Saima", image:"src/assets/images/Dr. Abdul Karim Saima.png" },
-    { name: "Dr. Ihab Bitawi", image: "src/assets/images/Dr. Ihab Bitawi.png" },
+    { name: "Dr. Jehad Ismail", image:"src/assets/images/jehad ismaeel.png" },
+    { name: "Dr. Wafeeq Othman", image: "src/assets/images/wafeeq othman.png" },
   ]);
 
   const [loading, setLoading] = useState(true);
