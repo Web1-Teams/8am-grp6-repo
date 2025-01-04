@@ -1,0 +1,155 @@
+.header {
+  background-color: #4CC9FE;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+
+}
+
+.logo {
+  max-height: 80px;
+  color: black;
+}
+
+.logo-1{
+font-size: 32px;
+color:#fff ;
+font-weight: 700;
+
+
+}
+a{
+
+color:#fff 
+
+}
+
+.dropdown {
+  position: relative;
+  z-index: 10 ;
+  color: #fff;
+}
+
+.dropdown-menu {
+  
+  display: none; 
+
+
+  position: absolute;
+  top: calc(100% + 5px);
+  right: 0;
+  left: auto;
+  background-color: rgb(231, 233, 237) ;
+  border: 1px solid black;
+  padding: 10px;
+  list-style:none;
+  z-index:9999;
+  box-shadow:0 4px 6px rgba(0, 0, 0, 0.1); 
+  min-width: 400px;
+  z-index: 15;
+  opacity: 95%;
+
+}
+
+.dropdown-menu li {
+  margin: 5px 0;
+}
+
+.dropdown-menu a {
+  
+  color:#fff;
+  
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+.addition{
+
+color: #093155;
+
+
+
+
+}
+.header-sub{
+
+  background-color: rgb(231, 233, 237) ;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+opacity: 88%;
+
+
+
+}
+
+.video-1{
+justify-content: center;
+height: 550px;
+display: flex;
+object-fit: cover;
+width: 100%;
+margin:auto ;
+border-radius: 10px;
+border: 1px solid white;
+overflow: hidden;
+padding: 0;
+
+
+
+}
+
+
+.content-sub{
+  text-align: center;
+  
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  min-height:200px;
+  
+
+
+
+
+
+}
+.contact-info-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: black;
+}
+.contact-info {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: black;
+}
+.header-sub a {
+  color: black;
+  text-decoration: none;
+  margin: 0 15px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+
+.header-sub a:hover {
+color:#4CC9FE
+
+}
+
+
+.header-sub a.active {
+  color:#4CC9FE;
+  font-weight: bold;
+}
