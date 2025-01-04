@@ -1,27 +1,29 @@
-// App.jsx
-import React from 'react';
-import './App.css';
-import Homepage from "./components/Homepage";
-import PageContent from './components/pharmcyCOM/PageContent';
-
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css"; 
+import Homepage from "./components/Homepage/Homepage";
+import PageContent from "./components/pharmcyCOM/PageContent";
+import Feedback from "./components/Feedback/Feedback";
+import Footer from "./components/Footer/Footer";
+import AppointmentForm from "./components/AppointmentForm";
 
 function App() {
   return (
-    <div>
-
-<div className="App-container">
-      
+    <div className="App">
       <div className="Homepage">
         <Homepage />
-       
       </div>
-  
+      <div className="PageContent">
+        <PageContent />
+      </div>
+      <div className="Feedback">
+        <Feedback />
+      </div>
+      <div className="AppointmentForm">
+        <AppointmentForm />
+      </div>
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
-    <div className="App">
-      <PageContent />
-    </div>
-  </div>
   );
-}
-
-export default App;
