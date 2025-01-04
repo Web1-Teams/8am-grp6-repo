@@ -1,18 +1,31 @@
-import React from 'react';
-import './App.css';
-import Homepage from "./components/physical therapy/Homepage.jsx";
-import PageContent from './components/physical therapy/PageContent.jsx';
-
+import React from "react";
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Homepage from "./components/Homepage/Homepage";
+import PageContent from "./components/physical therapy/PageContent";  
+import Feedback from "./components/Feedback/Feedback";
+import Footer from "./components/Footer/Footer";
+import AppointmentForm from "./components/AppointmentForm";
 
 function App() {
   return (
-    <div>
-
-<div className="App">
+    <div className="App">
+      <div className="Homepage">
         <Homepage />
-      <PageContent />
+      </div>
+      <div className="PageContent">
+        <PageContent />
+      </div>
+      <div className="Feedback">
+        <Feedback />
+      </div>
+      <div className="AppointmentForm">
+        <AppointmentForm />
+      </div>
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
-  </div>
   );
 }
 
