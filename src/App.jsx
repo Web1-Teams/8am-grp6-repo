@@ -1,6 +1,6 @@
 import "./App.css";
 import React from "react";
-import Homepage from "./components/Homepage/Homepage";
+import Homepage from "./components/Homepage/Homepage";  // تأكد من المسار
 import PageContent from './components/Rheumatology Disease/PageContent';
 import Feedback from "./components/Feedback/Feedback";
 import Footer from "./components/Footer/Footer";
