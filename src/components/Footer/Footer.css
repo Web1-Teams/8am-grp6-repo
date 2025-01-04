@@ -1,6 +1,6 @@
 .footer {
-  background-color: #1977cc;
-  color: white;
+  background-color: #4cc9fe;
+  color: black;
   padding: 20px 40px;
   width: 100%;
   bottom: 0;
@@ -44,7 +44,7 @@
 }
 
 .contact-item a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
@@ -73,8 +73,8 @@
   width: 40px;
   height: 40px;
   margin: 0 5px;
-  background-color: white;
-  color: #1977cc;
+  background-color: #4cc9fe;
+  color: black;
   text-decoration: none;
   text-decoration: none;
 }

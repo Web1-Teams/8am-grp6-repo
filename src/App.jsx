@@ -1,18 +1,14 @@
 import React from "react";
-import Homepage from "C:\\Users\\إلكتروني\\OneDrive\\سطح المكتب\\8am-grp6-repo\\src\\components\\Homepage\\Homepage.jsx";
-import Feedback from "C:\\Users\\إلكتروني\\OneDrive\\سطح المكتب\\8am-grp6-repo\\src\\components\\Footer\\Footer.jsx";
-import Footer from "C:\\Users\\إلكتروني\\OneDrive\\سطح المكتب\\8am-grp6-repo\\src\\components\\Footer\\Footer.jsx";
+import Feedback from "./components/Feedback/Feedback";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      <div className="Homepage">
-        <Homepage />
-      </div>
-      <div className="Feedback">
+      <div>
         <Feedback />
       </div>
-      <div className="Footer">
+      <div>
         <Footer />
       </div>
     </div>
