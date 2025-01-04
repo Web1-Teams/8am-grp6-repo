@@ -1,4 +1,5 @@
-header {
+
+.header {
   background-color: #4CC9FE;
   padding: 20px 40px;
   display: flex;
@@ -153,4 +154,3 @@ padding: 0;
   color:#4CC9FE;
   font-weight: bold;
 }
-
