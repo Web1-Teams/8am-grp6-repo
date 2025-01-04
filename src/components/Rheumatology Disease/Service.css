@@ -27,7 +27,7 @@
     justify-content: center;
     color: white;
     font-size: 12px; 
-    background-color: #009688;
+    background-color: #4CC9FE;
     border-radius: 50%;
     width: 20px;
     height: 20px;
@@ -41,7 +41,7 @@
     display: block;
     padding: 10px 20px;
     font-size: 16px;
-    background-color: #009688;
+    background-color: #4CC9FE;
     color: white;
     border: none;
     border-radius: 5px;
@@ -51,6 +51,6 @@
   }
   
   button:hover {
-    background-color: #00796b; 
+    background-color: #4CC9FE; 
   }
   
