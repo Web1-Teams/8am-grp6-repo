@@ -1,5 +1,6 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect} from "react"
 import "./DoctorSection.css";
+import { Link } from 'react-router-dom';
 
 const DoctorsList = ({ doctors }) => {
   return (
@@ -17,9 +18,9 @@ const DoctorsList = ({ doctors }) => {
 
 const DoctorsSection = () => {
   const [doctors, setDoctors] = useState([
-    { name: "Dr. Amer Asia", image: "src/assets/Internal-Medicine-images/Dr.Amer.jpg" },
-    { name: "Dr. Dina Abu Jaber", image: "src/assets/Internal-Medicine-images/Dr.Dina.jpg" },
-  
+    { name: "Dr.Abdulkarim", image: "src/assets/images/DR_AbdulKarim.jpg"},
+    { name: "Dr.Ihab", image: "src/assets/images/DR_Ihab.jpg"},
+    { name: "Dr.Reem", image: "src/assets/images/DR_Reem.jpg"},
   ]);
 
   const [loading, setLoading] = useState(true);
@@ -39,7 +40,7 @@ const DoctorsSection = () => {
       <h2 className="doctors-title"></h2>
       <div className="doctors-and-button-container"> {/* New wrapper div */}
         <DoctorsList doctors={doctors} />
-        <button className="appointment-button">Make Appointment</button>
+        <Link to="/appointmentForm" className="appointment-button ">Make Appointment</Link>
       </div>
     </div>
   );

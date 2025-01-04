@@ -47,7 +47,7 @@ const Homepage = () => {
       <li><a href="/special6">- Rheumatology Disease</a></li><br />
       <li><a href="/special7">- Oncology</a></li><br />
       <li><a href="/special8">- Pediatric Oncology</a></li><br />
-      <li><a href="/special9">- Dermatology</a></li><br />
+      <li><a href="/special9">- Pediatric</a></li><br />
       <li><a href="/special10">- Nutrition</a></li>
     </ul>
     </div>
@@ -65,4 +65,4 @@ const Homepage = () => {
     </div>
   );
 };
-export default Homepage;
+export default Homepage;

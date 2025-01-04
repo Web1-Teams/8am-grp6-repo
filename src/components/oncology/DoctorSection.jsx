@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect} from "react"
 import "./DoctorSection.css";
+import { Link } from 'react-router-dom';
 
 const DoctorsList = ({ doctors }) => {
   return (
@@ -39,7 +40,7 @@ const DoctorsSection = () => {
       <h2 className="doctors-title"></h2>
       <div className="doctors-and-button-container"> {/* New wrapper div */}
         <DoctorsList doctors={doctors} />
-        <button className="appointment-button">Make Appointment</button>
+        <Link to="/appointmentForm" className="appointment-button ">Make Appointment</Link>
       </div>
     </div>
   );

@@ -2,17 +2,19 @@ import React from 'react';
 import DoctorsSection from './DoctorSection.jsx';
 import ServicesList from './Service.jsx';
 
-function PageContent() {
+function RheumatologyDisease() {
 const [services,setServices] = React.useState([
    
-      "Diagnostic and therapeutic services for various common childhood diseases.",
-      "Regular monitoring of children during their growth and development, along with providing special advice related to nutrition problems and appetite deficiency, and their treatment.",
-      "Vigilant monitoring of the growth of infants, conducting necessary examinations for early detection, and prevention of some problems faced by this group of children during their growth .",
-      "Diagnostic and therapeutic services for pediatric kidney diseases .",
-      "Diagnostic and therapeutic services for pediatric blood disorders and tumors.",
-      "Diagnostic and therapeutic services for pediatric heart diseases .",
-      "Intensive and diligent care for children .",
-      
+      " The treatment of rheumatoid arthritis.",
+      "Comprehensive treatment of systemic lupus erythematosus.",
+      "The treatment of gout.",
+      "The treatment of osteoporosis.",
+      "The treatment of psoriatic arthritis.",
+      "The treatment of ankylosing spondylitis.",
+      "The treatment of vasculitis.",
+      "The treatment of familial Mediterranean fever.",
+      "The treatment of myositis.",
+      "The treatment of scleroderma.",
       ]);
     
       const [loading, setLoading] = React.useState(true);
@@ -31,7 +33,7 @@ const [services,setServices] = React.useState([
         <div className="page-container">
           <div className="header-image-container">
             <img
-              src="src/assets/images/Pediatrics.jpg"
+              src="src/assets/images/Rheumatology Disease.jpeg"
               alt="Medical Laboratories "
               className="header-image"
             />
@@ -46,4 +48,4 @@ const [services,setServices] = React.useState([
       );
 }
 
-export default PageContent;
+export default RheumatologyDisease;

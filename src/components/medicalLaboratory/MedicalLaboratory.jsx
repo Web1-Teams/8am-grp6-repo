@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import DoctorsSection from './DoctorSection';
 import ServicesList from './Service';
 
-function PageContent() {
+function MedicalLaboratory() {
     const [services, setServices] = useState([
       "Diagnostic Tests: Includes blood tests to detect chronic diseases such as diabetes and heart disease,  as well as infection tests for viruses and bacteria.",
       "Diagnostic Services for Surgical Samples: Offering diagnostic services for surgical samples from hospital patients, along with  providing consultative services to external patients and doctors.",
@@ -45,4 +45,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default MedicalLaboratory;

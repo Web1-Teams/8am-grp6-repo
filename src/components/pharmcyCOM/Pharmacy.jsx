@@ -2,7 +2,7 @@ import React from 'react';
 import DoctorsSection from './DoctorSection.jsx';
 import ServicesList from './Service.jsx';
 
-function PageContent() {
+function Pharmacy() {
     const [services, setServices] = React.useState([
         "Medication Provision: The pharmacy offers a wide range of medications to meet diverse patient needs.",
         "Dosage Determination: Pharmacists determine appropriate dosages for each patient based on their individual health condition and characteristics.",
@@ -45,4 +45,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default Pharmacy;

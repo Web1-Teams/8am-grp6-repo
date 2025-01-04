@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import DoctorsSection from './DoctorSection';
 import ServicesList from './Service';
 
-function PageContent() {
+function Nutrition() {
   const [services, setServices] = useState([
     "Nutritional Assessment: Identifying the patient’s nutritional needs.",
     "Diet Plans: Preparing meals according to the health condition.",
@@ -44,4 +44,4 @@ function PageContent() {
   );
 }
 
-export default PageContent;
+export default Nutrition;

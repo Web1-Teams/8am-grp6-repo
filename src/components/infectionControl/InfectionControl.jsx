@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import DoctorsSection from './DoctorSection';
 import ServicesList from './Service';
 
-function PageContent() {
+function InfectionControl() {
   const [services, setServices] = useState([
     "Disinfection and Sterilization: Implementing regular sterilization programs for surfaces, tools, and public facilities to ensure a germ-free, healthy environment.",
     "Design of Infection Control Signs and Periodic Bulletins: Creating informational signs and bulletins related to infection control. ",
@@ -46,4 +46,4 @@ function PageContent() {
   );
 }
 
-export default PageContent;
+export default InfectionControl;

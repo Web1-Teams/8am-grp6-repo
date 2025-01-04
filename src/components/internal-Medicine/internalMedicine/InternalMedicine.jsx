@@ -2,7 +2,7 @@ import React from 'react';
 import DoctorsSection from './DoctorSection.jsx';
 import ServicesList from './Service.jsx';
 
-function PageContent() {
+function InternalMedicine() {
     const [services, setServices] = React.useState([
         "Diagnosis and treatment of blood disorders",
         "Diagnosis and treatment of gastrointestinal and colon disorders",
@@ -49,4 +49,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default InternalMedicine;

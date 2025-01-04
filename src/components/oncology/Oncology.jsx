@@ -2,7 +2,7 @@ import React from 'react';
 import DoctorsSection from './DoctorSection.jsx';
 import ServicesList from './Service.jsx';
 
-function PageContent() {
+function Oncology() {
     const [services, setServices] = React.useState([
    
       "Chemotherapy, biological therapy, immunotherapy, and other services are provided for all cancer patients.",
@@ -49,4 +49,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default Oncology;

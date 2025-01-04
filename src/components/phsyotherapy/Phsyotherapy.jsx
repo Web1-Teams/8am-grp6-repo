@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import DoctorsSection from './DoctorSection';
 import ServicesList from './Service';
 
-function PageContent() {
+function Phsyotherapy() {
     const [services, setServices] = useState([
       "Pain management.",
       "Avoiding surgery.",
@@ -46,4 +46,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default Phsyotherapy;

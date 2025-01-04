@@ -2,7 +2,7 @@ import React from 'react';
 import DoctorsSection from './DoctorSection.jsx';
 import ServicesList from './Service.jsx';
 
-function PageContent() {
+function Gastrointestinal() {
     const [services, setServices] = React.useState([
         "Diagnostic services for gastrointestinal, pancreatic, and biliary tract diseases",
         "Early detection of tumors affecting various organs in the body, with the necessary sampling",
@@ -48,4 +48,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default Gastrointestinal;

@@ -2,7 +2,7 @@ import React from 'react';
 import DoctorsSection from './DoctorSection.jsx';
 import ServicesList from './Service.jsx';
 
-function PageContent() {
+function Pediatric() {
     const [services, setServices] = React.useState([
         "Bone marrow biopsies for children",
         "Chemotherapy, biological therapy, immunotherapy, and other services are provided for all pediatric cancer patients",
@@ -46,4 +46,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default Pediatric;

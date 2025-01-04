@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import DoctorsSection from './DoctorSection';
 import ServicesList from './Service';
 
-function PageContent() {
+function PsychologicalSocialServices() {
     const [services, setServices] = useState([
       "Psychological counseling: Providing psychological support to the patient to cope with the psychological pressures associated with the medical diagnosis, anxiety about the future, and adjusting to difficult treatments.",
       "Behavioral therapy: It aims to modify harmful behaviors or adapt to the new health condition, such as overcoming addiction or dealing with sleep disorders.",
@@ -44,4 +44,4 @@ function PageContent() {
       );
 }
 
-export default PageContent;
+export default PsychologicalSocialServices;
