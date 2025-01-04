@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css"; 
 import Homepage from "./components/Homepage/Homepage";
-import PageContent from "./components/pediatric/PageContent";
+import PageContent from "./components/psychological/PageContent";
 import Feedback from "./components/Feedback/Feedback";
 import Footer from "./components/Footer/Footer";
 import AppointmentForm from "./components/AppointmentForm";
