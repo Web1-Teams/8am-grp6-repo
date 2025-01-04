@@ -72,7 +72,6 @@ const Homepage = () => {
 <source src={videoSrc}
 type="video/mp4" />
 
-
 </video>          
       </section>
       <br />
