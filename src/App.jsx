@@ -8,18 +8,14 @@ function App() {
   return (
     <div>
 
-    <div className="App-container">
-          
-          <div className="Homepage">
-            <Homepage />
-           
-          </div>
-      
-        </div>
-    <div className="App">
+<div className="App">
+
+        <Homepage />
+
       <PageContent />
     </div>
-    </div>
+  </div>
+
   );
 }
 
