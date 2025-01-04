@@ -17,12 +17,7 @@ const DoctorsList = ({ doctors }) => {
 
 const DoctorsSection = () => {
   const [doctors, setDoctors] = useState([
-
-    { name: "Dr.Ahmad", image: "src/assets/images/DR_Ahmad.jpg"},
-    { name: "Dr. Sajed Majadlah", image: "src/assets/images/Dr-SajedMajadlah.png" },
-    { name: "Dr. Yahia Ismail", image: "src/assets/images/Dr-YahiaIsmail.jpg" },
-    { name: "Dr. Yunis Daralamouri", image: "src/assets/images/Dr-YunisDaralammouri.png" },
-
+    { name: "Dr.Refaat", image: "src/assets/images/DR_Refaat.jpg"},
     
   ]);
 
@@ -41,7 +36,7 @@ const DoctorsSection = () => {
   return (
     <div>
       <h2 className="doctors-title"></h2>
-      <div className="doctors-and-button-container">
+      <div className="doctors-and-button-container"> {/* New wrapper div */}
         <DoctorsList doctors={doctors} />
         <button className="appointment-button">Make Appointment</button>
       </div>
