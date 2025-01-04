@@ -1,13 +1,25 @@
-
-import './App.css';
-import PageContent from './components/internal-Medicine/Internal-Medicine/PageContent';
-import Homepage from './components/internal-Medicine/Homepage';
+import "./App.css";
+import React from "react";
+import Homepage from "./components/Homepage/Homepage";  // تأكد من المسار
+import PageContent from './components/Rheumatology Disease/PageContent';
+import Feedback from "./components/Feedback/Feedback";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
     <div className="App">
-      < Homepage/>
-      <PageContent />
+      <div className="Homepage">
+        <Homepage />
+      </div>
+      <div className="PageContent">
+        <PageContent />
+      </div>
+      <div className="Feedback">
+        <Feedback />
+      </div>
+      <div className="Footer">
+        <Footer />
+      </div>
     </div>
   );
 }
