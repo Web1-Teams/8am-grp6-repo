@@ -1,0 +1,79 @@
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #e6f2ff; 
+}
+.appointment-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+
+.appointment-form-overlay {
+  position: relative;
+  z-index: 1;
+  width: 90%;
+  max-width: 450px;
+  background: white;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.form-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-content {
+  padding: 20px;
+  width: 100%;
+}
+
+.form-control {
+  border-color: #ddd;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #999;
+}
+
+.form-check-input:checked {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+.form-check-input:focus {
+  border-color: #0d6efd;
+  box-shadow: none;
+}
+
+.form-label {
+  margin-bottom: 0.2rem;
+}
+
+
+.btn-primary {
+  background-color: #1976d2;
+  border-color: #1976d2;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1565c0;
+  border-color: #1565c0;
+}
+body{
+  justify-content: center;
+}
