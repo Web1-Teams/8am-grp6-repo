@@ -1,5 +1,5 @@
 import "./Homepage.css";
-import logo from "C:\\Users\\إلكتروني\\OneDrive\\سطح المكتب\\8am-grp6-repo\\src\\components\\Homepage\\logo.png";
+import logo from "./components/Homepage/logo.png";
 import {
   FaFacebookF,
   FaYoutube,
