@@ -46,36 +46,16 @@ function Footer() {
         <div className="footer-right">
           <p className="follow-us">Follow Us</p>
           <div className="footer-social">
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow us on Facebook"
-            >
+            <a href="#" target="_blank" aria-label="Follow us on Facebook">
               <FaFacebook />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow us on Instagram"
-            >
+            <a href="#" target="_blank" aria-label="Follow us on Instagram">
               <FaInstagram />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow us on LinkedIn"
-            >
+            <a href="#" target="_blank" aria-label="Follow us on LinkedIn">
               <FaLinkedin />
             </a>
-            <a
-              href="#"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Follow us on YouTube"
-            >
+            <a href="#" target="_blank" aria-label="Follow us on YouTube">
               <FaYoutube />
             </a>
           </div>
