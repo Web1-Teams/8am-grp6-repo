@@ -1,50 +1,35 @@
 import "./Homepage.css";
 import logo from "../assets/images/logo.png"
-
+import React, {useState} from "react"
 import {
-  FaFacebookF,
-  FaYoutube,
-  FaInstagram,
   FaMapMarkerAlt,
   FaPhoneAlt,
 } from "react-icons/fa";
-import React, {useState} from "react"
-
 const Homepage = () => {
   
   return (
     <div>
-      <header className="header">
-        <div className="header-content">
-          <img src={logo} alt="An-Najah Hospital Logo" className="logo" />
-        </div>
-        <div className="contact-info">
-          <div className="contact-info-details">
-            <FaPhoneAlt className="icon" />
-            <div>
-              <p>Emergency Number</p>
-              <p>+970 592 444 010</p>
-            </div>
-          </div>
-          <div className="contact-info-details">
-            <FaMapMarkerAlt className="icon" />
-            <div>
-              <p>Our Location</p>
-              <p>Asira Street - Nablus, Palestine</p>
-            </div>
+    <header className="header">
+      <div className="header-content">
+        <img src={logo} alt="An-Najah Hospital Logo" className="logo" />
+      </div>
+      <div className="contact-info">
+        <div className="contact-info-details">
+          <FaPhoneAlt className="icon" />
+          <div>
+            <p>Emergency Number</p>
+            <p>+970 592 444 010</p>
           </div>
         </div>
-        <div className="social-media">
-          <a href="#" target="_blank" rel="noopenernoreferrer">
-            <FaFacebookF className="social-icon" />
-          </a>
-          <a href="#" target="_blank" rel="noopenernoreferrer">
-            <FaInstagram className="social-icon" />
-          </a>
-          <a href="#" target="_blank" rel="noopenernoreferrer">
-            <FaYoutube className="social-icon" />
-          </a>
-         </div>
+        <div className="contact-info-details">
+          <FaMapMarkerAlt className="icon" />
+          <div>
+            <p>Our Location</p>
+            <p>Asira Street - Nablus, Palestine</p>
+          </div>
+        </div>
+      </div>
+      
         </header>
           <header className="header-sub">
   <a href="/" className="logo-1">Our services</a>
@@ -66,7 +51,6 @@ const Homepage = () => {
       <li><a href="/special10">- Nutrition</a></li>
     </ul>
     </div>
-
     <div className="dropdown">
     <a href="#" className="dropdown-toggle">Support Services +</a>
     <ul className="dropdown-menu">
@@ -78,9 +62,7 @@ const Homepage = () => {
     </ul>
   </div>
 </header>
- 
-      </div>
+    </div>
   );
 };
-
-export default Homepage;
+export default Homepage;
