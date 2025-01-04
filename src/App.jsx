@@ -1,15 +1,19 @@
-import './App.css';
-import Homepage from './components/bone-marrow/Homepage';
-import PageContent from './components/bone-marrow/PageContent';
+import React from "react";
+import Homepage from "./components/Homepage/Homepage";
+import "./App.css";
 
 
-
-function App() {  
+function App() {
   return (
-    <div className="App">
-       <Homepage /> 
-       <PageContent />
-    </div>
+    
+    <div className="App-container">
+      
+        <div className="Homepage">
+          <Homepage />
+        </div>
+        
+
+      </div>
   );
 }
 
